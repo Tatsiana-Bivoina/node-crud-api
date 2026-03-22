@@ -10,6 +10,8 @@ export default defineConfig({
       lib: path.resolve(__dirname, 'src/lib'),
       routes: path.resolve(__dirname, 'src/routes'),
       'app.js': path.resolve(__dirname, 'src/app.ts'),
+      'balancer.js': path.resolve(__dirname, 'src/balancer.ts'),
+      'worker-server.js': path.resolve(__dirname, 'src/worker-server.ts'),
     },
   },
   test: {
